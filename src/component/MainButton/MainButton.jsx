@@ -6,7 +6,6 @@ MainButton.propTypes = {
     children: PropTypes.node.isRequired,
 }
 
-
 export default function MainButton({ size, children }) {
     return (
         <button className={`
