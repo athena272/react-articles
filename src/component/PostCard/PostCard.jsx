@@ -7,7 +7,6 @@ PostCard.propTypes = {
     post: PropTypes.object.isRequired,
 }
 
-
 export default function PostCard({ post }) {
     return (
         <Link to={`/posts/${post['id']}`}>
