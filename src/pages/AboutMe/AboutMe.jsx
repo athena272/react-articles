@@ -1,4 +1,4 @@
-import styles from "./AboutMe.module.css";
+import styles from "./AboutMe.module.scss";
 
 import PostModel from "../../component/PostModel/PostModel";
 import coverPhoto from "assets/images/sobre_mim_capa.png";
