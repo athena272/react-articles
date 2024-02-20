@@ -1,4 +1,4 @@
-.conteudoContainer {
+.contentContainer {
     position: relative;
     text-align: center;
     background-color: var(--azul-escuro);
@@ -64,7 +64,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .conteudoContainer {
+    .contentContainer {
         padding: 3rem 1rem 17rem;
     }
 
