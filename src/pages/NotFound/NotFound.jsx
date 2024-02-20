@@ -9,7 +9,7 @@ export default function NotFound() {
 
     return (
         <>
-            <div className={styles.conteudoContainer}>
+            <div className={styles.contentContainer}>
                 <span className={styles.texto404}>404</span>
 
                 <h1 className={styles.titulo}>
