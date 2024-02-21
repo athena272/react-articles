@@ -1,4 +1,4 @@
-import './Post.css';
+import './Post.scss';
 import styles from './Post.module.css';
 
 import { Route, Routes, useParams } from "react-router-dom"
