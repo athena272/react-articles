@@ -1,7 +1,8 @@
 .post {
+    border-radius: 12px !important;
     text-align: center;
     width: 282px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 20px 5px #55328a80;
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
@@ -16,11 +17,12 @@
 }
 
 .title {
-    font-family: var( --secondary-font);
+    font-family: var(--secondary-font);
     font-size: 1.25rem;
     color: var(--dark-blue);
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
+    min-height: 60px;
 }
 
 @media screen and (max-width: 1200px) {
