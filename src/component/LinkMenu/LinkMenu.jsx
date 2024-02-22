@@ -9,7 +9,7 @@ LinkMenu.propTypes = {
 
 export default function LinkMenu({ children, to }) {
     const location = useLocation();
-    console.log("🚀 ~ LinkMenu ~ location:", location)
+    // console.log("🚀 ~ LinkMenu ~ location:", location)
 
     return (
         <Link className={`
