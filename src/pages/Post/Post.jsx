@@ -1,9 +1,9 @@
 import './Post.scss';
-import styles from './Post.module.css';
+import styles from './Post.module.scss';
 
 import { Route, Routes, useParams } from "react-router-dom"
 import ReactMarkdown from "react-markdown";
-import posts from "assets/json/posts.json";
+import posts from '../../../public/assets/json/posts.json'
 import PostModel from "../../component/PostModel/PostModel";
 import NotFound from '../NotFound/NotFound';
 import StandardPage from '../../component/StandardPage/StandardPage';
