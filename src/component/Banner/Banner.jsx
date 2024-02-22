@@ -1,6 +1,6 @@
 import styles from './Banner.module.scss'
-import wheelColor from 'assets/images/circulo_colorido.png'
-import myPhoto from 'assets/images/myPhoto.jpeg'
+import wheelColor from '/assets/images/circulo_colorido.png'
+import myPhoto from '/assets/images/myPhoto.jpeg'
 
 export default function Banner() {
     return (
