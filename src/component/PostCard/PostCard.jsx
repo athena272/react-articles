@@ -8,6 +8,8 @@ PostCard.propTypes = {
 }
 
 export default function PostCard({ post }) {
+    console.log(post)
+
     return (
         <Link to={`/posts/${post['id']}`}>
             <div className={styles.post}>
