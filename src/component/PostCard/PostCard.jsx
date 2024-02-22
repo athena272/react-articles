@@ -19,7 +19,7 @@ export default function PostCard({ post }) {
 
                 <h2 className={styles.title}>{post['title']}</h2>
 
-                <MainButton >
+                <MainButton size='sm'>
                     Ler
                 </MainButton>
             </div>
