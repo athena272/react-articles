@@ -30,20 +30,20 @@ export default function Post() {
             <Route path="*" element={<StandardPage />}>
                 <Route index element={
                     <PostModel
-                        fotoCapa={`/assets/posts/${post.id}/capa.png`}
-                        titulo={post.titulo}
+                        coverPhoto={`/assets/posts/${post.id}/capa.png`}
+                        title={post['title']}
                     >
                         <div className="post-markdown-container">
                             <ReactMarkdown>
-                                {post.texto}
+                                {post['content']}
                             </ReactMarkdown>
                         </div>
 
-                        <h2 className={styles.tituloOutrosPosts}>
+                        <h2 className={styles.titleAnotherPosts}>
                             Outros posts que você pode gostar:
                         </h2>
 
-                        <ul className={styles.postsRecomendados}>
+                        <ul className={styles.postsRecommended}>
                             {postsRecomendados.map((post) => (
                                 <li key={post.id}>
                                     <PostCard post={post} />
