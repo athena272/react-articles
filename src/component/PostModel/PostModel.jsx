@@ -19,7 +19,7 @@ export default function PostModel({ coverPhoto, title, children }) {
                 {title}
             </h2>
 
-            <div className={styles.postConteudoContainer}>
+            <div className={styles.postContentContainer}>
                 {children}
             </div>
         </article>
