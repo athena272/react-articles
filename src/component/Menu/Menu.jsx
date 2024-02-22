@@ -8,7 +8,7 @@ export default function Menu() {
                 <LinkMenu to="/">
                     Início
                 </LinkMenu>
-                <LinkMenu to="/sobremim">
+                <LinkMenu to="/about-me">
                     Sobre Mim
                 </LinkMenu>
             </nav>
