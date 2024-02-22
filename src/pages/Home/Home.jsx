@@ -1,5 +1,5 @@
 import styles from './Home.module.scss'
-import posts from 'assets/json/posts.json'
+import posts from '../../../public/assets/json/posts.json'
 import PostCard from '../../component/PostCard/PostCard'
 
 export default function Home() {
