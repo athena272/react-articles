@@ -2,21 +2,21 @@
     position: relative;
     text-align: center;
     background-color: var(--azul-escuro);
-    color: var(--branco);
+    color: #fff;
     padding: 0 1.5rem 6.5rem;
 }
 
 .text404 {
     display: block;
-    color: var(--azul-medio);
-    font-family: var(--fonte-secundaria);
+    color: var(--medium-blue);
+    font-family: var(--secondary-font);
     font-size: 6rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
 .title {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--secondary-font);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
