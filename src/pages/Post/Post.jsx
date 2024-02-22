@@ -6,14 +6,14 @@ import ReactMarkdown from "react-markdown";
 import posts from "assets/json/posts.json";
 import PostModel from "../../component/PostModel/PostModel";
 import NotFound from '../NotFound/NotFound';
-import PaginaPadrao from 'componentes/PaginaPadrao';
-import PostCard from 'componentes/PostCard';
+import StandardPage from '../../component/StandardPage/StandardPage';
+import PostCard from '../../component/PostCard/PostCard';
 
 export default function Post() {
-    const parametros = useParams();
+    const params = useParams();
 
     const post = posts.find((post) => {
-        return post.id === Number(parametros.id);
+        return post.id === Number(params.id);
     })
 
     if (!post) {
@@ -21,13 +21,13 @@ export default function Post() {
     }
 
     const postsRecomendados = posts
-        .filter((post) => post.id !== Number(parametros.id))
+        .filter((post) => post.id !== Number(params.id))
         .sort((a, b) => b.id - a.id)
         .slice(0, 4);
 
     return (
         <Routes>
-            <Route path="*" element={<PaginaPadrao />}>
+            <Route path="*" element={<StandardPage />}>
                 <Route index element={
                     <PostModel
                         fotoCapa={`/assets/posts/${post.id}/capa.png`}
@@ -55,6 +55,5 @@ export default function Post() {
                 } />
             </Route>
         </Routes>
-
     )
 }
