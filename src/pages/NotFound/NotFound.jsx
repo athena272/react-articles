@@ -1,5 +1,5 @@
 import styles from './NotFound.module.scss';
-import erro404 from 'assets/images/erro_404.png'
+import erro404 from '/assets/images/erro_404.png'
 import MainButton from '../../component/MainButton/MainButton';
 import { useNavigate } from 'react-router-dom';
 
