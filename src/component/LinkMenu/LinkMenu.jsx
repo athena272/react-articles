@@ -1,4 +1,4 @@
-import styles from 'LinkMenu.module.scss'
+import styles from './LinkMenu.module.scss'
 import PropTypes from "prop-types"
 import { Link, useLocation } from 'react-router-dom';
 
