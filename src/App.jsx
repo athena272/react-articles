@@ -1,3 +1,5 @@
+import StandardPage from "./component/StandardPage/StandardPage";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home/Home'
 import AboutMe from "./pages/AboutMe/AboutMe";
