@@ -1,8 +1,10 @@
 import styles from "./AboutMe.module.scss";
 
 import PostModel from "../../component/PostModel/PostModel";
-import coverPhoto from "assets/images/sobre_mim_capa.png";
-import aboutMePhoto from "assets/images/sobre_mim_foto.png";
+import coverPhoto from "../../../public/assets/images/sobre_mim_capa.png";
+// import coverPhoto from "assets/images/sobre_mim_capa.png";
+import aboutMePhoto from "../../../public/assets/images/sobre_mim_foto.png";
+// import aboutMePhoto from "assets/images/sobre_mim_foto.png";
 
 export default function AboutMe() {
     return (
